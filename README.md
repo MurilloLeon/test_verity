@@ -67,9 +67,9 @@ Rodar por ambiente, ambientes são configurados dentro do arquivo support/env.rb
   prod=true
 
 ######### Exemplos de comando completo #########
-## Roda apenas a feature especifica.
+## Rodar apenas a feature específica.
   cucumber features/contato.feature chrome=true
-## Roda todos os cenarios com a tag botoes_iframe no browser chrome e ambiente de dev.
+## Rodar todos os cenarios com a tags.
   cucumber prod=true chrome=true -t @contato
 
 Gem que serve de auxilio na criação do projeto e Configuração:(Pretest)
